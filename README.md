@@ -107,6 +107,7 @@ kops validate cluster
 
 ## 10b - Export the kubeconfig file to manage your kubernetes cluster from a remote server. For this demo, Our remote server shall be our kops server 
 ```sh
+#Might need to re-run this command if I stopped and restarted my server.
  kops export kubecfg $NAME --admin
 ```
 ## 11a) To list nodes and pod to ensure that you can make calls to the kubernetes apiSAerver and run workloads
